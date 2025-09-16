@@ -423,15 +423,21 @@ body.dark-mode .settings-icon {
   padding: 20px;
 }
 
+body.dark-mode .feature-content {
+  background: var(--glass-dark);
+  border: 1px solid var(--glass-border-dark);
+  box-shadow: var(--shadow-soft-dark);
+}
+
 .feature-title {
   font-size: 1.6rem;
   font-weight: 700;
-  color: var(--text-primary);
+  color: var(--orange);
   margin-bottom: 12px;
 }
 
 .feature-description {
-  color: var(--text-secondary);
+  color: var(--text-secondary-dark);
   line-height: 1.6;
   margin-bottom: 18px;
 }
@@ -1072,7 +1078,7 @@ body.dark-mode .card:hover {
 .clash-clan-card p,
 .clash-clan-card ul {
   margin: 5px 0;
-  color: var(--text-secondary);
+  color: var(--text-secondary-dark);
 }
 
 .clash-clan-card ul {
