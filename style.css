@@ -239,7 +239,6 @@ body.dark-mode {
 
 body.dark-mode .clash-clan-card {
   background: var(--glass-dark);
-  border: 1px solid var(--glass-border-dark);
   box-shadow: var(--shadow-soft-dark);
 }
 
